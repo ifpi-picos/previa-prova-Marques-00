@@ -1,4 +1,4 @@
-import { describe, it, expect } from "bun:test";
+// import { describe, it, expect } from "bun:test";
 import {
   maiorNumero,
   verificarParOuImpar,
@@ -19,7 +19,7 @@ describe("maiorNumero", () => {
   });
 });
 
-// Teste para a função verificarParOuImpar
+//Teste para a função verificarParOuImpar
 describe("verificarParOuImpar", () => {
   it('deve retornar "Par" para números pares', () => {
     expect(verificarParOuImpar(4)).toBe("Par");
